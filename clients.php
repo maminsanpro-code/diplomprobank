@@ -1,0 +1,5 @@
+﻿[bank]
+
+http_engine = Apache
+php_engine  = PHP-8.3
+

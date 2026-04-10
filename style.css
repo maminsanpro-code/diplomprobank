@@ -1,0 +1,225 @@
+// Файл с переводами
+const translations = {
+    ru: {
+        // Меню
+        menu_knowledge: 'База знаний',
+        menu_requests: 'Заявки',
+        menu_employees: 'Сотрудники',
+        menu_clients: 'Клиенты',
+        menu_map: 'Карта',
+        menu_assets: 'Активы',
+        menu_reports: 'Отчеты',
+        menu_settings: 'Настройки',
+        
+        // Категории
+        category_my: 'МОИ',
+        category_my_requests: 'Мои заявки',
+        category_overdue: 'Просроченные заявки',
+        category_common: 'ОБЩИЕ',
+        category_all_except_closed: 'Все (кроме закрытых)',
+        category_open: 'Открытые',
+        category_in_progress: 'В работе',
+        category_postponed: 'Отложенные',
+        category_deals: 'Сделки',
+        
+        // Таблица
+        table_number: '№',
+        table_title: 'Название',
+        table_status: 'Статус',
+        table_priority: 'Приоритет',
+        table_executor: 'Исполнители',
+        table_client: 'Клиент',
+        table_deadline: 'Срок выполнения',
+        table_updated: 'Дата изменения',
+        
+        // Статусы
+        status_open: 'Открыта',
+        status_in_progress: 'В работе',
+        status_postponed: 'Отложена',
+        status_deal: 'Сделка (заключен договор)',
+        
+        // Приоритеты
+        priority_high: 'Высокий',
+        priority_medium: 'Средний',
+        priority_low: 'Низкий',
+        
+        // Кнопки
+        btn_new_request: '+ Новая заявка',
+        btn_logout: 'Выход',
+        btn_save: 'Сохранить',
+        btn_cancel: 'Отмена',
+        btn_apply: 'Применить',
+        
+        // Поиск
+        search_placeholder: '🔍 Начните вводить Статус, Фамилию, Клиента, Приоритет, Сервис, Название поля чтобы найти заявки',
+        
+        // Модальное окно
+        modal_new: 'Новая заявка',
+        modal_edit: 'Редактирование заявки №',
+        modal_client: 'Клиент',
+        modal_topic: 'Тема (Название)',
+        modal_description: 'Описание',
+        modal_status: 'Статус',
+        modal_priority: 'Приоритет',
+        modal_deadline: 'Срок выполнения',
+        modal_select_client: 'Выберите клиента',
+        
+        // Настройки
+        settings_title: 'Настройки',
+        settings_theme: 'Тема оформления',
+        settings_theme_light: 'Светлая',
+        settings_theme_dark: 'Темная',
+        settings_language: 'Язык интерфейса',
+        settings_lang_ru: 'Русский',
+        settings_lang_en: 'English',
+        
+        // Отчеты
+        reports_title: 'Отчеты',
+        reports_open: 'Открытых заявок',
+        reports_in_progress: 'В работе',
+        reports_overdue: 'Просрочено',
+        reports_avg_time: 'Среднее время (дней)',
+        
+        // Прочее
+        page_development: 'Страница в разработке',
+        today: 'Сегодня',
+        yesterday: 'Вчера'
+    },
+    
+    en: {
+        // Menu
+        menu_knowledge: 'Knowledge Base',
+        menu_requests: 'Requests',
+        menu_employees: 'Employees',
+        menu_clients: 'Clients',
+        menu_map: 'Map',
+        menu_assets: 'Assets',
+        menu_reports: 'Reports',
+        menu_settings: 'Settings',
+        
+        // Categories
+        category_my: isAdmin ? 'ALL' : 'MY',
+        category_my_requests: isAdmin ? 'All Requests' : 'My Requests',
+        category_overdue: 'Overdue Requests',
+        category_common: 'COMMON',
+    category_overdue: 'Overdue',
+    category_all_except_closed: 'All (except closed)',
+    category_open: 'Open',
+    category_in_progress: 'In Progress',
+    category_postponed: 'Postponed',
+    category_deals: 'Deals',
+        
+        // Table
+        table_number: '#',
+        table_title: 'Title',
+        table_status: 'Status',
+        table_priority: 'Priority',
+        table_executor: 'Assignee',
+        table_client: 'Client',
+        table_deadline: 'Deadline',
+        table_updated: 'Updated',
+        
+        // Statuses
+        status_open: 'Open',
+        status_in_progress: 'In Progress',
+        status_postponed: 'Postponed',
+        status_deal: 'Deal (contract signed)',
+        
+        // Priorities
+        priority_high: 'High',
+        priority_medium: 'Medium',
+        priority_low: 'Low',
+        
+        // Buttons
+        btn_new_request: '+ New Request',
+        btn_logout: 'Logout',
+        btn_save: 'Save',
+        btn_cancel: 'Cancel',
+        btn_apply: 'Apply',
+        
+        // Search
+        search_placeholder: '🔍 Start typing Status, Name, Client, Priority, Service, Field name to find requests',
+        
+        // Modal
+        modal_new: 'New Request',
+        modal_edit: 'Edit Request #',
+        modal_client: 'Client',
+        modal_topic: 'Topic',
+        modal_description: 'Description',
+        modal_status: 'Status',
+        modal_priority: 'Priority',
+        modal_deadline: 'Deadline',
+        modal_select_client: 'Select client',
+        
+        // Settings
+        settings_title: 'Settings',
+        settings_theme: 'Theme',
+        settings_theme_light: 'Light',
+        settings_theme_dark: 'Dark',
+        settings_language: 'Language',
+        settings_lang_ru: 'Русский',
+        settings_lang_en: 'English',
+        
+        // Reports
+        reports_title: 'Reports',
+        reports_open: 'Open Requests',
+        reports_in_progress: 'In Progress',
+        reports_overdue: 'Overdue',
+        reports_avg_time: 'Average Time (days)',
+        
+        // Other
+        page_development: 'Page under development',
+        today: 'Today',
+        yesterday: 'Yesterday'
+    }
+};
+
+// Функция для применения языка
+function applyLanguage(lang) {
+    document.querySelectorAll('[data-lang]').forEach(element => {
+        const key = element.getAttribute('data-lang');
+        if (translations[lang] && translations[lang][key]) {
+            // Для input с placeholder
+            if (element.tagName === 'INPUT' && element.hasAttribute('placeholder')) {
+                element.placeholder = translations[lang][key];
+            } 
+            // Для option
+            else if (element.tagName === 'OPTION') {
+                element.textContent = translations[lang][key];
+            }
+            // Для обычных элементов
+            else {
+                element.textContent = translations[lang][key];
+            }
+        }
+    });
+    
+    // Особый случай для поиска
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.placeholder = translations[lang].search_placeholder;
+    }
+    
+    // Обновление заголовка модального окна если оно открыто
+    const modalTitle = document.getElementById('modalTitle');
+    const reqId = document.getElementById('reqId');
+    if (modalTitle && reqId && reqId.value) {
+        modalTitle.textContent = translations[lang].modal_edit + reqId.value;
+    } else if (modalTitle) {
+        modalTitle.textContent = translations[lang].modal_new;
+    }
+    
+    // Сохраняем язык
+    localStorage.setItem('language', lang);
+}
+
+// Получить текущий язык
+function getCurrentLanguage() {
+    return localStorage.getItem('language') || 'ru';
+}
+
+// Функция перевода для динамического контента
+function t(key, lang = null) {
+    const language = lang || getCurrentLanguage();
+    return translations[language]?.[key] || key;
+}
